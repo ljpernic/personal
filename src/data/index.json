@@ -1,0 +1,32 @@
+[
+  {
+    "__comments": "These are some comments",
+    "title": "Hello, I'm Leon Perniciaro.",
+    "description": "Personal website of Leon Perniciaro.",
+    "text": "I am a writer, editor, and part-time university professor, teaching courses in game design.",
+    "subtitle": "CURRENT PROJECTS",
+    "home_items": [
+      {
+        "name": "HAVEN SPEC MAGAZINE",
+        "image": "images/Haven_Spec_Square.jpg",
+        "description": "Haven Spec Magazine is a speculative fiction magazine featuring stories for a 21st century audience. We love stories with a sense of adventure, stories that teach us, that touch us, that leave us wanting more. We publish six issues every year, two of which (the DRY Issue and the WET Issue) are focused exclusively on the climate crisis and themes of displacement (very broadly defined). ",
+        "projStatus": "Ongoing",
+        "link": "https://www.havenspec.com"
+      },
+      {
+        "name": "UTOPIA SCIENCE FICTION MAGAZINE",
+        "image": "images/Utopia_Sciece_Fiction_square.jpg",
+        "description": "Utopia Science Fiction Magazine is dedicated to publishing science fiction short stories, poems, and articles that offer a more optimistic view of the future. ",
+        "projStatus": "Ongoing",
+        "link": "https://www.utopiasciencefiction.com"
+      },
+      {
+        "name": "FATHER BOTHER",
+        "image": "images/Father_Bother.png",
+        "description": "Father Bother is a writers' room-style comedy podcast where we take tropes and ideas from classic works of literature and turn them into children's books! ",
+        "projStatus": "Ongoing",
+        "link": "https://fatherbother.simplecast.com/"
+      }
+    ]
+  }
+]

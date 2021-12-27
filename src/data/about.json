@@ -1,0 +1,23 @@
+[
+  {
+    "__comments": "These are some comments",
+    "title": "About",
+    "description": "About Leon Perniciaro",
+    "text": "I am the editor of Haven Spec Magazine and fiction editor of Utopia Science Fiction Magazine, and I teach game design at Quinnipiac University. Codexian and member of SFWA and BSFW.",
+    "textSecond": "Where y'at?",
+    "subtitle": "Nada",
+    "name_icon": "images/name.svg",
+    "title_icon": "images/title.svg",
+    "mail_icon": "images/mail.svg",
+    "twitter_icon": "images/twitter.svg",
+    "team_members": [
+      {
+        "name": "Leon Perniciaro",
+        "title": "Writer and Editor",
+        "email": "Haven Spec",
+        "twitter": "@LeonPerniciaro",
+        "image": "images/Leon_Perniciaro.png"
+      }
+    ]
+  }
+]
