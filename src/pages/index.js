@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import Layout from "../components/Layout/layout"
+import { graphql } from 'gatsby'
 
 class IndexPage extends Component {
   state = {
@@ -33,6 +34,9 @@ class IndexPage extends Component {
         <div
           key={i}
           onClick={this.openModal.bind(this, item)}
+          onKeyDown={this.openModal.bind(this, item)}
+          aria-hidden="false" 
+          role="presentation"
           className={
             this.state.smallScreen ? "grid-item-small" : "home-grid-item"
           }
@@ -62,7 +66,7 @@ class IndexPage extends Component {
             {homeItems}
           </div>
         </div>
-        <div id="modal" className="modal" onClick={this.closeModal}>
+        <div id="modal" className="modal" onClick={this.closeModal} onKeyDown={this.closeModal} aria-hidden="false" role="presentation">
           <div
             className={
               this.state.smallScreen ? "modal-content-small" : "modal-content"

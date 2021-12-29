@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import Layout from "../components/Layout/layout"
+import { graphql } from 'gatsby'
 
 class WorkPage extends Component {
   state = {
@@ -34,6 +35,7 @@ class WorkPage extends Component {
         <div
           key={i}
           onClick={this.openModal.bind(this, item)}
+          onKeyDown={this.openModal.bind(this, item)}
           className={
             this.state.smallScreen ? "grid-item-small" : "work-grid-item"
           }
@@ -58,7 +60,7 @@ class WorkPage extends Component {
         >
           {workItems}
         </div>
-        <div id="modal" className="modal" onClick={this.closeModal}>                      {/* This has to be changed to change the click-closes-the-window thing */}
+        <div id="modal" className="modal" onClick={this.closeModal} onKeyDown={this.closeModal}>                      {/* This has to be changed to change the click-closes-the-window thing */}
           <div
             className={
               this.state.smallScreen ? "modal-content-small" : "modal-content"

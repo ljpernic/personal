@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import Layout from "../components/Layout/layout"
+import { graphql } from 'gatsby'
 
 class ContactPage extends Component {
   render() {
