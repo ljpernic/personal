@@ -9,7 +9,7 @@ const NotFoundPage = () => (
     <h1>PAGE NOT FOUND</h1>
     <p><b>Page not found.</b></p>
     <p>Thank you, visitor!</p>
-    <p>But this page is in another castle!</p>
+    <p>But this page is in another castle! </p>
   </Layout>
 )
 
