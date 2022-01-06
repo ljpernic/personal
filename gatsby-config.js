@@ -28,6 +28,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
+        icon: `static/android-chrome-192x192.png`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

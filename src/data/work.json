@@ -9,28 +9,28 @@
     "work_items": [
       {
         "name": "HAVEN SPEC MAGAZINE",
-        "image": "images/Haven_Spec_Square.jpg",
+        "image": "/Haven_Spec_Square.jpg",
         "description": "Haven Spec Magazine is a speculative fiction magazine featuring stories for a 21st century audience. We love stories with a sense of adventure, stories that teach us, that touch us, that leave us wanting more. We publish six issues every year, two of which (the DRY Issue and the WET Issue) are focused exclusively on the climate crisis and themes of displacement (very broadly defined). ",
         "projStatus": "Ongoing",
         "link": "https://www.havenspec.com"
       },
       {
         "name": "UTOPIA SCIENCE FICTION MAGAZINE",
-        "image": "images/Utopia_Sciece_Fiction_square.jpg",
+        "image": "/Utopia_Sciece_Fiction_square.jpg",
         "description": "Utopia Science Fiction Magazine is dedicated to publishing science fiction short stories, poems, and articles that offer a more optimistic view of the future. ",
         "projStatus": "Ongoing",
         "link": "https://www.utopiasciencefiction.com"
       },
       {
         "name": "FATHER BOTHER",
-        "image": "images/Father_Bother.jpg",
+        "image": "/Father_Bother.jpg",
         "description": "Father Bother is a writers' room-style comedy podcast where we take tropes and ideas from classic works of literature and turn them into children's books! ",
         "projStatus": "Ongoing",
         "link": "https://fatherbother.simplecast.com/"
       },
       {
         "name": "Tink & Jupiter",
-        "image": "images/Tink_Jupiter_Square.jpg",
+        "image": "/Tink_Jupiter_Square.jpg",
         "description": "When Tink discovers she can talk to machines, she brings to life Jupiter, a retro game console. Now she has to find him and put him back to sleep before he wreaks havoc in the neighborhood. An original audio drama produced by Chicken Patty Productions.",
         "projStatus": "Completed Spring 2018",
         "link": "https://tinkandjupiter.podbean.com/"
