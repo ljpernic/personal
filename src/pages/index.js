@@ -27,6 +27,7 @@ class IndexPage extends Component {
   }
   render() {
     let indexData = this.props.data.allIndexJson.nodes[0]
+    console.log(this.props.data)
     let homeItems = []
     let i = 0
     indexData.home_items.forEach(item => {
@@ -40,11 +41,16 @@ class IndexPage extends Component {
           className={
             this.state.smallScreen ? "grid-item-small" : "home-grid-item"
           }
-          style={{
-            backgroundImage: `url(${item.image})`,
-            backgroundSize: "100%",
-          }}
-        ></div>
+          style={ this.state.smallScreen ? 
+            {
+              backgroundImage: `url(${item.imageSoc})`,
+              backgroundSize: "100%",
+            } : {
+              backgroundImage: `url(${item.imageSoc})`, 
+              backgroundSize: "100%",
+            }
+          }
+          ></div>
       )
       i++
     })
@@ -52,10 +58,10 @@ class IndexPage extends Component {
       <Layout page={"home"}>
         <h1 className="title">{indexData.title}</h1>
         <div className="home-main">
-          <div className="text">{indexData.text}</div>
-          <div className="text">Where y'at?</div>
+          <div className="text-center">{indexData.text}</div>
+          <div className="text-center">{indexData.secondText}</div>
           <div className="divider"></div>
-          <h2 className="subtitle">{indexData.subtitle}</h2>
+           <h2 className="subtitle">{indexData.subtitle}</h2>
           <div
             className={
               this.state.smallScreen
@@ -65,7 +71,7 @@ class IndexPage extends Component {
           >
             {homeItems}
           </div>
-        </div>
+        </div> 
         <div id="modal" className="modal" onClick={this.closeModal} onKeyDown={this.closeModal} aria-hidden="false" role="presentation">
           <div
             className={
@@ -86,7 +92,7 @@ class IndexPage extends Component {
               </div>
               <div className="modal-grid-item-right">
                 <img
-                  src={this.state.modal.image}
+                  src={this.state.modal.imageSquare}
                   alt={this.state.modal.name}
                   className="modal-image"
                 ></img>
@@ -107,13 +113,15 @@ export const query = graphql`
         title
         description
         text
+        secondText
         subtitle
         home_items {
           name
           description
           projStatus
           link
-          image
+          imageSquare
+          imageSoc
         }
       }
     }

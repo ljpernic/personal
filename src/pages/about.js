@@ -58,6 +58,7 @@ class AboutPage extends Component {
         <div className="main">
           <h1 className="title">{aboutData.title}</h1>
           <div className="text">{aboutData.text}</div>
+          <div className="text">{aboutData.secondText}</div>
 {/*          <div>
             <h2 className="subtitle">{aboutData.subtitle}</h2>
           </div>*/}
@@ -77,8 +78,8 @@ export const query = graphql`
         title
         description
         text
-        textSecond
-        subtitle
+        secondText
+        thirdText
         name_icon
         title_icon
         mail_icon

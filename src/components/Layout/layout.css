@@ -86,8 +86,9 @@ body {
   margin-right: 4%;
 }
 .logo {
-  height: 100px;
-  margin-bottom: -45px;
+  height: 300px;
+  margin-bottom: -140px;
+  margin-top: -100px;
 }
 .button {
   width: calc(120px + 1.5vw);
@@ -213,6 +214,19 @@ body {
   max-width: 800px;
   margin-top: 60px;
   margin-bottom: 50px;
+  text-align: left;
+  font-size: calc(20px + 0.5vw);
+  color: #000000d0;
+  font-weight: 300;
+}
+
+.text-center {
+  padding-left: 4%;
+  padding-right: 4%;
+  margin: auto;
+  max-width: 800px;
+  margin-top: 60px;
+  margin-bottom: 50px;
   text-align: center;
   font-size: calc(20px + 0.5vw);
   color: #000000d0;
@@ -237,7 +251,7 @@ body {
   max-width: 700px;
   text-align: center;
   font-size: calc(18px + 0.5vw);
-  font-weight: 300;
+  font-weight: bold;
 }
 .home-main {
   text-align: center;
@@ -247,7 +261,7 @@ body {
   width: 300px;
 }
 .divider {
-  margin: 100px auto 75px auto;
+  margin: 75px auto 75px auto;
   height: 1px;
   background-color: #88888890;
   max-width: 700px;
@@ -261,9 +275,10 @@ body {
   margin-right: auto;
   margin-top: 50px;
   max-width: 700px;
-  display: grid;
+  /* display: grid */    /* Changed to block to have a single item. To go back to grid, make this the only margin.*/
+  display: block;
   text-align: center;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 100%;
   font-weight: 600;
   font-size: calc(8px + 1vw);
 }
@@ -282,9 +297,11 @@ body {
   font-size: calc(8px + 1vw);
 }
 .home-grid-item {
-  min-height: 200px;
-  max-width: 210px;
-  margin: 4%;
+  min-height: 420px;
+  max-width: 828px;
+/* Margin: 4% */    /* Removed to have a single item. To go back to grid, make this the only margin.*/
+  margin-left: auto;
+  margin-right: auto;
   background-color: #ffffff;
   box-shadow: 4px 4px 10px #888888;
   border-radius: 8px;

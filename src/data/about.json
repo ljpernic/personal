@@ -3,9 +3,9 @@
     "__comments": "These are some comments",
     "title": "About",
     "description": "About Leon Perniciaro",
-    "text": "I am the editor of Haven Spec Magazine and fiction editor of Utopia Science Fiction Magazine, and I teach game design at Quinnipiac University. Codexian and member of SFWA and BSFW.",
-    "textSecond": "Where y'at?",
-    "subtitle": "Nada",
+    "text": "Leon Perniciaro (he/him) is the editor of Haven Spec Magazine, a book editor at Android Press, and a submissions editor at Uncanny Magazine. He also studies English as a PhD student at the University of Connecticut.",
+    "secondText": "Originally from New Orleans, he now lives in New England, where he's terrified of both the climate crisis and the Great Filter.",
+    "thirdText": "Where y'at?",
     "name_icon": "images/name.svg",
     "title_icon": "images/title.svg",
     "mail_icon": "images/mail.svg",
@@ -13,10 +13,10 @@
     "team_members": [
       {
         "name": "Leon Perniciaro",
-        "title": "Writer and Editor",
+        "title": "Writer, Editor, Student",
         "email": "Haven Spec",
         "twitter": "@LeonPerniciaro",
-        "image": "Leon_Perniciaro.png"
+        "image": "Leon_Perniciaro.jpg"
       }
     ]
   }

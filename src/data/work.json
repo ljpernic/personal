@@ -2,7 +2,7 @@
   {
     "__comments": "These are some comments",
     "title": "Work",
-    "description": "Welcome to our company website",
+    "description": "Description of some projects, completed and ongoing, that Leon Perniciaro has participated in.",
     "text": "Here are a few of the projects, past and present, that I've worked on." ,
     "publications": "Publications",
     "conferences": "Conferences",
@@ -18,7 +18,7 @@
         "name": "UTOPIA SCIENCE FICTION MAGAZINE",
         "image": "/Utopia_Sciece_Fiction_square.jpg",
         "description": "Utopia Science Fiction Magazine is dedicated to publishing science fiction short stories, poems, and articles that offer a more optimistic view of the future. ",
-        "projStatus": "Ongoing",
+        "projStatus": "Completed",
         "link": "https://www.utopiasciencefiction.com"
       },
       {
@@ -29,7 +29,7 @@
         "link": "https://fatherbother.simplecast.com/"
       },
       {
-        "name": "Tink & Jupiter",
+        "name": "TINK & JUPITER",
         "image": "/Tink_Jupiter_Square.jpg",
         "description": "When Tink discovers she can talk to machines, she brings to life Jupiter, a retro game console. Now she has to find him and put him back to sleep before he wreaks havoc in the neighborhood. An original audio drama produced by Chicken Patty Productions.",
         "projStatus": "Completed Spring 2018",

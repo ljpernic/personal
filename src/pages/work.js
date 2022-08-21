@@ -120,29 +120,42 @@ class WorkPage extends Component {
         <div>
           <h1 className="title">{workData.conferences}</h1>
             <p className="text-body">
-              79th World Science Fiction Convention <br />
+              <b>80th World Science Fiction Convention</b> <br />
+              Chicago, IL, USA, 2022<br />
+              <u>Panelist</u>: <i>Ancient Cities and Futuristic Design</i> <br />
+              <u>Panelist</u>: <i>Technological Solutions to Environmental Problems</i> <br />
+              <u>Panelist</u>: <i>If It's Not Love, Then It's The Bomb That Will Bring Us Together</i> <br />
+              <u>Panelist</u>: <i>We're Probably Not All in This Together</i> <br />
+            </p>
+            <p className="text-body">
+              <b>Watersheds: Association for the Study of Literature and Environment 2022 Symposium</b> <br />
+              University of Delaware, Newark, DE, 2022<br />
+              <u>Conference talk</u>: <i>'The Wild Things of Bois Sauvage': Blurring the Human and Nonhuman in Jesmyn Ward’s </i>Salvage the Bones
+            </p>
+            <p className="text-body">
+              <b>79th World Science Fiction Convention</b> <br />
               Washington, D.C., USA, 2021<br />
-              Panelist: “<i>Introducing the Hugo Award for Best Video Game</i>”
+              <u>Panelist</u>: <i>Introducing the Hugo Award for Best Video Game</i>
             </p>
             <p className="text-body">
-              77th World Science Fiction Convention<br />
+            <b>77th World Science Fiction Convention</b> <br />
               Dublin, Ireland, 2019<br />
-              Poster: “<i>Post-Vaccination Pneumococcal Disease Dynamics: How to fight a pathogen that sometimes isn’t a pathogen</i>” (with Stephanie Perniciaro)
+              <u>Poster</u>: <i>Post-Vaccination Pneumococcal Disease Dynamics: How to fight a pathogen that sometimes isn’t a pathogen</i> (with Stephanie Perniciaro)
             </p>
             <p className="text-body">
-              75th World Science Fiction Convention<br />
+            <b>75th World Science Fiction Convention</b> <br />
               Helsinki, Finland, 2017<br />
-              Panel moderator: “Military SF: pro-war or anti-war?”
+              <u>Panel moderator</u>: <i>Military SF: pro-war or anti-war?</i>
             </p>
             <p className="text-body">
-              Mid-Atlantic Popular/American Culture Association Annual Conference<br />
+            <b>Mid-Atlantic Popular/American Culture Association Annual Conference</b> <br />
               Washington, D.C., USA, 2010 <br />
-              Panelist: “<i>Bugs and Brotherhood: Militarism & the Just War Theory in Starship Troopers</i>”
+              <u>Panelist</u>: <i>Bugs and Brotherhood: Militarism & the Just War Theory in Starship Troopers</i>
             </p>
             <p className="text-body">
-              55th Annual Meeting of the American Society for Tropical Medicine and Hygiene<br />
+            <b>55th Annual Meeting of the American Society for Tropical Medicine and Hygiene</b> <br />
               Atlanta, Georgia, USA, 2006<br />
-              Poster presenter: “<i>First Report of Autochthonous Transmission of </i>Trypanosoma cruzi<i> in Louisiana and Sixth in the United States</i>”
+              <u>Poster presenter</u>: <i>First Report of Autochthonous Transmission of </i>Trypanosoma cruzi<i> in Louisiana and Sixth in the United States</i>
             </p>
         </div>
       </Layout>
