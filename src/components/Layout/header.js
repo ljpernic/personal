@@ -27,9 +27,9 @@ class Header extends Component {
           <button className="sidebar-button-on">
             <img src={menuIcon} alt="Menu" className="menu-icon"></img>
           </button>
-{/*          <Link to="/" className="sidebar-link">
+          <Link to="/" className="sidebar-link">
             <button className="sidebar-item">HOME</button>
-          </Link>*/}
+          </Link>
           <Link to="/work" className="sidebar-link">
             <button className="sidebar-item">WORK</button>
           </Link>

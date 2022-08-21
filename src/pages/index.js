@@ -43,7 +43,7 @@ class IndexPage extends Component {
           }
           style={ this.state.smallScreen ? 
             {
-              backgroundImage: `url(${item.imageSoc})`,
+              backgroundImage: `url(${item.imageSquare})`,
               backgroundSize: "100%",
             } : {
               backgroundImage: `url(${item.imageSoc})`, 
